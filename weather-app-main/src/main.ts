@@ -9,7 +9,7 @@ class WeatherApp {
 
   constructor() {
     this.weatherDisplay = new WeatherDisplayManager();
-    this.searchManager = new SearchManager('13a005fb95c2daab372fa6ffcdf7da55');
+    this.searchManager = new SearchManager('Personal Code');
   }
 
   async onCityAdded(weatherData: any) {
